@@ -1,0 +1,75 @@
+<script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+<link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+<form class="feedback-form" autocomplete="off">
+    <label>
+        Email
+        <input type="email" name="email" autofocus />
+    </label>
+    <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+</form>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .feedback-form {
+        background-color: #fff;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .feedback-form label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .feedback-form input[type="email"],
+    .feedback-form textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        transition: border-color 0.3s;
+    }
+
+    .feedback-form input[type="email"]:focus,
+    .feedback-form textarea:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    .feedback-form button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .feedback-form button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+
+
+
